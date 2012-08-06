@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-touch-fullscreen" content="yes" />
+        <title></title>
+        
+
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="stylesheet" type="text/css" media="screen" href="./bootstrap/docs/assets/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="./bootstrap/docs/assets/css/bootstrap-responsive.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="./css/survey.css" />
+        
+        
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="./bootstrap/docs/assets/js/bootstrap.min.js"></script>
+        
+        <script type="text/javascript" src="./jquery-mobile/compiled/jquery.mobile.js"></script>
+        <script type="text/javascript" src="./js/survey.js"></script>
+        <style>
+        </style>
+    </head>
+    <body>
+    
+    
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <h1 class="brand">Quizz Vinexpo fr</h1>
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-flag icon-white"></span>
+                        <span>Fr</span>
+                    </a>
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li>
+                            <a href="/fr/poll/c">Français</a>
+                            </li>
+                            <li>
+                            <a href="/en/poll/c">English</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            
+            <form method="POST">
+                <fieldset>
+                    <div id="hidden-fields"><input name="survey_fill[id]" id="survey_fill_id" type="hidden">
+                        <input value="Réponse 1" name="survey_fill[question_0]" id="survey_fill_question_0" type="hidden">
+                        <input name="survey_fill[question_1]" id="survey_fill_question_1" type="hidden">
+                        <input name="survey_fill[question_2]" id="survey_fill_question_2" type="hidden">
+                        <input name="survey_fill[_csrf_token]" value="9f969bedae4fe76fca6a658d1dc3129a" id="survey_fill__csrf_token" type="hidden">
+                    </div>
+                    <ol>
+                        <li>
+                            <legend>
+                            Quel pourcentage de chinois pensent qu'une marque est plus attractive lorsqu'elle est active sur les réseaux sociaux ?                               <span class="required">*</span>
+                            </legend>
+                            <div class="control-group">
+                            <label class="control-label" for="survey_fill_question_0"></label>
+                            <div class="controls">
+                            <div class="buttons-radio-list btn-list" data-toggle-name="survey_fill[question_0]" data-toggle="buttons-radio">
+                            <div class="spacer"></div><a data-value="Réponse 1" class="btn active">Réponse 1</a><label>55%</label><div class="spacer"></div><a data-value="Réponse 2" class="btn">Réponse 2</a><label>75%</label><div class="spacer"></div><a data-value="Réponse 3" class="btn">Réponse 3</a><label>95%</label></div>                              </div>
+                            </div>
+                        </li>
+                        <li>
+                            <legend>
+                            Quel pourcentage de chinois ont acheté un produit grâce à une campagne vue sur Internet ?                               
+                            <span class="required">*</span>
+                            </legend>
+                            <div class="control-group">
+                            <label class="control-label" for="survey_fill_question_1"></label>
+                            <div class="controls">
+                            <div class="buttons-radio-list btn-list" data-toggle-name="survey_fill[question_1]" data-toggle="buttons-radio">
+                            <div class="spacer"></div><a data-value="Réponse 1" class="btn">Réponse 1</a><label>35%</label><div class="spacer"></div><a data-value="Réponse 2" class="btn">Réponse 2</a><label>45%</label><div class="spacer"></div><a data-value="Réponse 3" class="btn">Réponse 3</a><label>65%</label></div>                              </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <legend>
+                            </legend>
+                            <div class="control-group">
+                            <label class="control-label" for="survey_fill_question_4"></label>
+                            <div class="controls">
+                            <input name="survey_fill[question_4]" id="survey_fill_question_4" type="text">
+                            </div>
+                            </div>
+                        </li>
+                    </ol>
+                    <div>
+                        <button class="btn btn-primary btn-large" value="Participer !" type="submit">Participer !</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,126 @@
+body
+{
+  /*padding-top: 60px;*/
+}
+
+.btn {
+    outline: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+}
+
+.required
+{
+  color: #bd362f;
+}
+
+.control-group
+{
+  margin-bottom: 2em;
+}
+
+.picture
+{
+  margin: 20px 0;
+  text-align: center;
+}
+
+.picture img
+{
+  width: 100%;
+}
+
+fieldset ol
+{
+  margin: 0;
+  list-style-position: inside;
+  font-size: 19.5px;
+}
+
+fieldset ol > li
+{
+  margin-bottom: 20px;
+}
+
+.range-min,
+.range-max
+{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.range-min
+{
+  margin-right: 10px;
+}
+
+.range-max
+{
+  margin-left: 10px;
+}
+
+.btn-list label
+{
+  display: inline;
+  margin-left: 1em;
+}
+
+.btn-list .spacer
+{
+  margin-bottom: 20px;
+}
+
+.sf-error
+{
+  font-size: 14px;
+  color: #bd362f;
+}
+
+.error label
+{
+  color: #bd362f;
+}
+
+.btn-navbar span
+{
+  color: #fff;
+}
+
+body legend
+{
+  display: inline;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+legend + .control-group
+{
+  margin: 0;
+  -webkit-margin-top-collapse: discard;
+}
+
+body .control-group
+{
+  display: block;
+  margin: 5px 0 0;
+  -webkit-margin-top-collapse: discard;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+body input,
+body textarea,
+body select,
+body .uneditable-input
+{
+  margin-bottom: 0;
+}
+
+ul.btn-group,
+div.btn-group
+{
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
