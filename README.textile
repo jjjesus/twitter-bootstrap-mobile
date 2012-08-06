@@ -1,13 +1,13 @@
 h1. Twitter bootstrap mobile
 
-p. I don't like jQuery mobile very much but it has pretty good performances when you've got to deal with touc events.
-On the contrary I like the simplicity of twitter bootstrap, embedded styles, buttons but it's not very efficient with mobile web apps.
+p. I don't like jQuery mobile very much but it has pretty good performances when you've got to deal with touch events.
+On the contrary I like the simplicity of twitter bootstrap, embedded styles, buttons but touch events are slow (onclick events).
 
-p. That's why I decided to merge the best of both world, twitter bootstrap and jQuery mobile.
+p. That's why I tried to simply merge the best of both world, twitter bootstrap and jQuery mobile.
 
 h2. What you can find here
 
-p. I have juste selected the usefull part of jquery mobile (taps, events etc.) and rewritten (work in progress) part of twitter boostrap with tap evnets instead of clieck events.
+p. I have selected the usefull part of jquery mobile (taps events etc.) and changed twitter bootstrap code with tap events instead of click events.
 Plus also some more style ... I've got to refactor a little bit but it should be finished soon !
 
 
